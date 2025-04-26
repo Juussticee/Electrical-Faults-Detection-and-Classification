@@ -66,6 +66,7 @@ Inputs: [Va, Vb, Vc, Ia, Ib, Ic]
 Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
 
 # 📁 Project Structure
+```
 ├── app.py
 ├── model/
 │ └── decision_tree_model.pkl
@@ -74,6 +75,7 @@ Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
 │ └── upload.html
 ├── requirements.txt
 └── README.md
+```
 
 # Showcase of the application:
 ## CSV Upload
