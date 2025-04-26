@@ -74,4 +74,4 @@ Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
 └── README.md
 
 # Showcase of the application:
-[![Watch the Demo]([https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg](https://drive.google.com/file/d/1WxecnAc7YsG_JELnFF28qCRnkI1LApSI/view?usp=drive_link))]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://drive.google.com/file/d/1WxecnAc7YsG_JELnFF28qCRnkI1LApSI/view?usp=drive_link))
+[![Watch the Demo]([[https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg](https://drive.google.com/file/d/1WxecnAc7YsG_JELnFF28qCRnkI1LApSI/view?usp=drive_link](https://youtu.be/7N1Ab793O-0)))]([[https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://drive.google.com/file/d/1WxecnAc7YsG_JELnFF28qCRnkI1LApSI/view?usp=drive_link](https://youtu.be/7N1Ab793O-0)))
