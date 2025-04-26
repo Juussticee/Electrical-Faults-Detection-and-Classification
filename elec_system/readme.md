@@ -76,8 +76,9 @@ Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
 └── README.md
 
 # Showcase of the application:
-## csv Upload
+## CSV Upload
 [![Watch the Demo](https://img.youtube.com/vi/7N1Ab793O-0/0.jpg)](https://youtu.be/7N1Ab793O-0)
 
 ## Real Time Detection:
-[![Watch the Demo]([https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/C7GXpJWZbZw))
+[![Watch the Demo](https://img.youtube.com/vi/C7GXpJWZbZw/0.jpg)](https://youtu.be/C7GXpJWZbZw)
+
