@@ -68,10 +68,10 @@ Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
 # 📁 Project Structure
 ├── app.py
 ├── model/
-│   └── decision_tree_model.pkl
+│ └── decision_tree_model.pkl
 ├── static/
 ├── templates/
-│   └── upload.html
+│ └── upload.html
 ├── requirements.txt
 └── README.md
 
