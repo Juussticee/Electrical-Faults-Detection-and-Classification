@@ -31,7 +31,7 @@ The server responds with predicted fault statuses.
 
 Data can be sent via UDP (for real-time) or uploaded as a CSV file (for batch processing).
 
-Our UDP server and Flask app communicate on the port 5000
+Our UDP server and Flask app communicate on the port 5005 and flask run on port 5000
 
 ## 🚀 Setup Instructions
 Clone the Repository
