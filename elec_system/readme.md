@@ -81,4 +81,4 @@ Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
 
 ## Real Time Detection:
 [![Watch the Demo](https://img.youtube.com/vi/C7GXpJWZbZw/0.jpg)](https://youtu.be/C7GXpJWZbZw)
-
+P.S. The "Error Fetching Update" message observed during the application usage is intentionally triggered by backend debugging operations implemented during development. It does not reflect any issues with the model’s performance or data interpretation. In a production environment, such debugging features would be removed to ensure a seamless user experience
