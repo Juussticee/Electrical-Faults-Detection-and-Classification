@@ -31,6 +31,8 @@ The server responds with predicted fault statuses.
 
 Data can be sent via UDP (for real-time) or uploaded as a CSV file (for batch processing).
 
+Our UDP server and Flask app communicate on the port 5000
+
 ## 🚀 Setup Instructions
 Clone the Repository
 
@@ -74,4 +76,7 @@ Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
 └── README.md
 
 # Showcase of the application:
-[![Watch the Demo]([[https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg](https://drive.google.com/file/d/1WxecnAc7YsG_JELnFF28qCRnkI1LApSI/view?usp=drive_link](https://youtu.be/7N1Ab793O-0)))]([[https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://drive.google.com/file/d/1WxecnAc7YsG_JELnFF28qCRnkI1LApSI/view?usp=drive_link](https://youtu.be/7N1Ab793O-0)))
+[![Watch the Demo]([https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/7N1Ab793O-0))
+
+## Real Time Detection:
+[![Watch the Demo]([https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/C7GXpJWZbZw))
