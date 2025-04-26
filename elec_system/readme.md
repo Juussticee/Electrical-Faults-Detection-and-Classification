@@ -57,11 +57,11 @@ Route	Method	Description
 # 📊 Model Details
 Algorithm: Decision Tree Classifier
 
-# Training Data: Simulink simulated data representing different fault scenarios
+ ### Training Data: Simulink simulated data representing different fault scenarios
 
-# Inputs: [Va, Vb, Vc, Ia, Ib, Ic]
+ ### Inputs: [Va, Vb, Vc, Ia, Ib, Ic]
 
-# Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
+ ### Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
 
 # 📁 Project Structure
 ├── app.py
