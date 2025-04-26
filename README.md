@@ -79,6 +79,12 @@ The system also accepts CSV files containing voltage, current, and circuit data 
 •	Outlier Check: Each row is checked by the LOF model. If flagged as an anomaly (fault code 2000), it is marked accordingly.
 •	Fault Prediction: Valid data is passed to the RFC for fault classification.
 This flexible approach supports both real-time and batch fault detection.
+## AWS Deployment
+To simulate a real-world deployment environment, we hosted our model on an AWS t3.micro instance.
+This deployment approach ensures global accessibility and provides an opportunity to evaluate the model’s performance in a cloud-based production setup.
+While Docker is certainly a valid and widely used option for deployment, we chose to explore AWS to understand different solutions and benefits for model hosting.
+Additionally, AWS services offer powerful tools like CloudWatch for monitoring, logging, and scaling our model in production environments.
+
 # Industry Implications
 The successful implementation of intelligent fault classification systems holds substantial promise for the electrical power industry. Specifically:
 - Operational Efficiency: Reduces manual inspection efforts and shortens fault resolution time.
