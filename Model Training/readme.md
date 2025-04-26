@@ -12,3 +12,4 @@ The dataset was split into a training set and a validation set. A Decision Tree 
 The model was then exported and integrated into the real-time pipeline for live classification during simulation.
 # IN this ipynb
 All the steps and details we followed step by step are present with the explanation of each step
+https://colab.research.google.com/drive/1tyCrfKSz08Mfsx3N2BuOsR2GUfQ3SPmV?usp=sharing
