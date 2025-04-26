@@ -10,3 +10,6 @@ Each output is a binary value e.g. 1110 : A=1, B=1, C=1, G=0.
 
 The dataset was split into a training set and a validation set. A Decision Tree Classifier was trained to learn patterns from the input signals and predict the corresponding fault types.
 The model was then exported and integrated into the real-time pipeline for live classification during simulation.
+# IN this ipynb
+All the steps and details we followed step by step are present with the explanation of each step
+https://colab.research.google.com/drive/1tyCrfKSz08Mfsx3N2BuOsR2GUfQ3SPmV?usp=sharing
