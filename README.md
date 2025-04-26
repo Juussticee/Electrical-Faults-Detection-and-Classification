@@ -97,6 +97,8 @@ To simulate a real-world deployment environment, we hosted our model on an AWS t
 This deployment approach ensures global accessibility and provides an opportunity to evaluate the model’s performance in a cloud-based production setup.
 While Docker is certainly a valid and widely used option for deployment, we chose to explore AWS to understand different solutions and benefits for model hosting.
 Additionally, AWS services offer powerful tools like CloudWatch for monitoring, logging, and scaling our model in production environments.
+![image](https://github.com/user-attachments/assets/58afd4b1-9c98-4b3f-9a9e-e547934b330a)
+
 
 # Industry Implications
 The successful implementation of intelligent fault classification systems holds substantial promise for the electrical power industry. Specifically:
