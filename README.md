@@ -14,10 +14,17 @@ Traditionally, such problems have been addressed using:
 - Protective relays and circuit breakers: While reactive, these mechanisms do not always provide adequate information for root-cause analysis or predictive fault management.
 Recent research has explored the integration of artificial intelligence techniques, particularly supervised learning models, for fault classification tasks. However, many implementations rely on limited datasets and fail to demonstrate generalizability or real-world deployment readiness.
 # Proposed Approach
-This project leverages supervised machine learning to identify and classify fault types based on electrical sensor readings. The approach utilizes a dataset sourced from Kaggle, which comprises simulated and/or measured readings from a three-phase electrical system. The features include:
+This project leverages supervised machine learning to identify and classify fault types based on electrical sensor readings. The approach utilizes a dataset generated using a simulink model
+![image](https://github.com/user-attachments/assets/35cfb324-0954-43ed-8d57-5ce7e5084b43)
+
+, which comprises simulated and/or measured readings from a three-phase electrical system. The features include:
 - Voltage measurements: Va, Vb, Vc
 - Current measurements: Ia, Ib, Ic
-- Ground current: Ig 
+  ![image](https://github.com/user-attachments/assets/63884456-df01-4ee0-b253-028623aca6c8)
+- Ground current: Ig
+  ![image](https://github.com/user-attachments/assets/79767ea3-0593-48cb-8d0d-aeeb534b0fe6)
+
+
 - Fault indicators: Binary flags indicating faults on phases A, B, C, and ground (G)
 The primary objective is to train models capable of accurately identifying whether a fault has occurred, and if so, determine its type and which particular phases are involved(e.g., phase-to-phase, phase-to-ground, or multiphase faults).
 # Methodology
@@ -76,6 +83,9 @@ Once the scaler is set, MATLAB continuously sends live sensor data to the Flask 
 •	Outlier Detection: The normalized data is passed to the Local Outlier Factor (LOF) model. If an anomaly is detected, it is flagged with fault code 2000.
 •	Fault Classification: If the data is not flagged as an outlier, it is passed to the pre-trained Random Forest Classifier (RFC) for fault prediction.
 By combining preprocessing, outlier detection, and machine learning classification, the Flask app provides real-time insights into system health.
+configs in the simulink model for real time deployment :
+![image](https://github.com/user-attachments/assets/6a2ffce0-0a4f-4a22-8820-04745b4c5f40)
+
 ## CSV Analysis and Labeling
 The system also accepts CSV files containing voltage, current, and circuit data for batch processing:
 •	Data Normalization: Each batch starts by fitting a new MinMaxScaler based on the provided data.
