@@ -51,12 +51,15 @@ Hyperparameter tuning was performed using grid search and cross-validation to op
 
 
 # Results and Findings
-Model	Accuracy	F1-Score	MCC	ROC-AUC
-Random Forest Classifier	98.6%	99.4%	98.7%	99.7%
-Gradient Boosting	90%	97.1%	93.8%	98.9%
-K-NN	97.4%	98.9%	97.6%	99.6%
-Naïve Bayes	47.7%	86%	67.9%	90%
-SVM	87.4%	85%	79%	91%
+
+| Model                    | Accuracy | F1-Score | MCC   | ROC-AUC |
+|---------------------------|----------|----------|-------|---------|
+| Random Forest Classifier  | 98.6%    | 99.4%    | 98.7% | 99.7%   |
+| Gradient Boosting         | 90%      | 97.1%    | 93.8% | 98.9%   |
+| K-NN                      | 97.4%    | 98.9%    | 97.6% | 99.6%   |
+| Naïve Bayes               | 47.7%    | 86%      | 67.9% | 90%     |
+| SVM                       | 87.4%    | 85%      | 79%   | 91%     |
+
 
 The Random Forest Classifier demonstrated superior performance, achieving:
 Key observations:
