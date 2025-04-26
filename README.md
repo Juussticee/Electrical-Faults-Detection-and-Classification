@@ -119,3 +119,10 @@ Such innovations are critical as the world moves toward smarter, more sustainabl
 # Citations
 Kaggle Dataset: Electrical Fault detection and Classification by E Sathya Prakash
 Simulink Model Github Repo : Electrical Faults Detection and Classification by KingArthur000
+# credits
+Bilal - Team member
+Mahmoud - Team member
+Insaf - Team member 
+We would like also to thank the **Zaka.ai Team** for their continuous support, guidance, and dedication throughout this journey. Their expertise and insights were instrumental in the success of this project.
+
+Thank you for making this experience possible!
