@@ -67,13 +67,21 @@ Outputs: [Phase A fault, Phase B fault, Phase C fault, Ground fault]
 
 # 📁 Project Structure
 ```
-├── app.py
 ├── model/
-│ └── decision_tree_model.pkl
-├── static/
+│ └── __init__.py
+│ └── rfc_model.joblib
+│ └── lof_model.joblib
+├── output/      #for the csv the system retun
+├── processed/      #for the csv the system scale , this was added for debugging and can be removed
+├── uploads/    #the csv the user input, we keep them at their raw format so we can inpect and decide later if this data can be used for further training the model
 ├── templates/
 │ └── upload.html
+│ └── setup.html
+│ └── index.html
 ├── requirements.txt
+├── app.py
+├── udp_server.py  #Where the operations of connecting the simulink model to our flask are done
+├── pipeline.txt
 └── README.md
 ```
 
